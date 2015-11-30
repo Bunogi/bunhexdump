@@ -2,8 +2,7 @@
 #include <fstream>
 #include <cstring>
 
-void usage(bool help, char *programName)
-{
+void usage(bool help, char *programName) {
 	std::cout << "Usage: [-n/--names][-h/--help] files..";
 	if(not help)
 		std::cout <<"\nRun " << programName << " -h for more information.";
