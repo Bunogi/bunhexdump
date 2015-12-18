@@ -1,7 +1,7 @@
 # bunhexdump
 Simple hexdump-like program I wrote out of boredom.
 
-Just run make to compile it, only uses standard C++ libraries.
+Just run make to compile it, only uses standard C++ libraries. Requires C++11.
 
 # Usage
 Usage: bunhexdump [-n/--names][-h/--help] files(...)

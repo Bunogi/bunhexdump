@@ -1,6 +1,6 @@
 CC=g++
 OUTPUT=bunhexdump
-FLAGS=-Wall
+FLAGS=-Wall --std=c++11
 
 all: main.cpp
 	$(CC) main.cpp $(FLAGS) -o $(OUTPUT)
