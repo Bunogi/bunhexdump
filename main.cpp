@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <cstring> //For memset only
+#include <cstring>
 #include <vector>
 
 namespace FlagStates {
@@ -104,6 +104,7 @@ int main(int argc, char *argv[]) {
 	
 		if(not file) {
 			std::cout << "Failed to open file " << argv[fileIndex] << ".\n";
+			std::cout << "Error: " << std::strerror(errno) << "\n";
 			return 1;
 		}	
 	
